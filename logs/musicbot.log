@@ -1,0 +1,112 @@
+[179.068565369] 2019-05-30 22:47:56,448 - INFO - launcher: Starting sanity checks
+[180.068492889] 2019-05-30 22:47:56,449 - INFO - launcher: Checking for Python 3.5+
+[180.068492889] 2019-05-30 22:47:56,449 - INFO - launcher: Checking console encoding
+[180.068492889] 2019-05-30 22:47:56,449 - INFO - launcher: Setting console encoding to UTF-8
+[180.068492889] 2019-05-30 22:47:56,449 - INFO - launcher: Ensuring we're in the right environment
+[181.068897247] 2019-05-30 22:47:56,450 - INFO - launcher: Adding local bins/ folder to path
+[2214.551448822] 2019-05-30 22:47:58,483 - INFO - launcher: Required checks passed.
+[2215.552091599] 2019-05-30 22:47:58,484 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[7.9808773994445801] 2019-05-30 22:48:04,250 - WARNING - musicbot.config | In config.py::MainThread(736), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[7.9818775653839111] 2019-05-30 22:48:04,251 - INFO - musicbot.config | In config.py::MainThread(736), line 131 in run_checks: Using i18n: config/i18n/en.json
+[7.9818775653839111] 2019-05-30 22:48:04,251 - WARNING - musicbot.config | In config.py::MainThread(736), line 222 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[7.9818775653839111] 2019-05-30 22:48:04,251 - WARNING - musicbot.config | In config.py::MainThread(736), line 222 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[7.9958808422088623] 2019-05-30 22:48:04,265 - DEBUG - musicbot.config | In config.py::MainThread(736), line 307 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[7.9958808422088623] 2019-05-30 22:48:04,265 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 226 in _setup_logging: Set logging level to INFO
+[7.9978814125061035] 2019-05-30 22:48:04,267 - DEBUG - musicbot.json | In json.py::MainThread(736), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[8.0038826465606689] 2019-05-30 22:48:04,273 - WARNING - musicbot.aliases | In aliases.py::MainThread(736), line 22 in __init__: Aliases file not found, copying example_aliases.json
+[8.0298886299133301] 2019-05-30 22:48:04,299 - INFO - musicbot.bot | In bot.py::MainThread(736), line 91 in __init__: Starting MusicBot release-120519
+[8.0308887958526611] 2019-05-30 22:48:04,300 - INFO - musicbot.bot | In bot.py::MainThread(736), line 97 in __init__: Loaded autoplaylist with 2531 entries
+[10.7575061321258545] 2019-05-30 22:48:07,026 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 949 in on_ready: Connection established, ready to go.
+[10.7575061321258545] 2019-05-30 22:48:07,026 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 340 in _cache_app_info: Caching app info
+[10.9145419597625732] 2019-05-30 22:48:07,183 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[10.9175422191619873] 2019-05-30 22:48:07,186 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 787 in _scheck_server_permissions: Checking server permissions
+[10.9175422191619873] 2019-05-30 22:48:07,186 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[10.9175422191619873] 2019-05-30 22:48:07,186 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 795 in _scheck_configs: Validating config
+[10.9175422191619873] 2019-05-30 22:48:07,186 - DEBUG - musicbot.config | In config.py::MainThread(736), line 228 in async_validate: Validating options...
+[10.9175422191619873] 2019-05-30 22:48:07,186 - DEBUG - musicbot.bot | In bot.py::MainThread(736), line 798 in _scheck_configs: Validating permissions config
+[10.9185431003570557] 2019-05-30 22:48:07,187 - DEBUG - musicbot.permissions | In permissions.py::MainThread(736), line 94 in async_validate: Validating permissions...
+[10.9185431003570557] 2019-05-30 22:48:07,187 - INFO - musicbot.bot | In bot.py::MainThread(736), line 966 in on_ready: Connected: 544925533503488005/Fremy Speeddraw#9529
+[10.9185431003570557] 2019-05-30 22:48:07,187 - INFO - musicbot.bot | In bot.py::MainThread(736), line 974 in on_ready: Owner:     225979470652112896/Klein#0001
+
+[10.9195430278778076] 2019-05-30 22:48:07,188 - INFO - musicbot.bot | In bot.py::MainThread(736), line 977 in on_ready: Guild List:
+[10.9195430278778076] 2019-05-30 22:48:07,188 - INFO - musicbot.bot | In bot.py::MainThread(736), line 981 in on_ready:  - Forest of D3stiny
+[10.9195430278778076] 2019-05-30 22:48:07,188 - INFO - musicbot.bot | In bot.py::MainThread(736), line 981 in on_ready:  - Neko Nation
+[10.9195430278778076] 2019-05-30 22:48:07,188 - INFO - musicbot.bot | In bot.py::MainThread(736), line 1037 in on_ready: Not bound to any text channels
+[10.9205431938171387] 2019-05-30 22:48:07,189 - INFO - musicbot.bot | In bot.py::MainThread(736), line 1063 in on_ready: Not autojoining any voice channels
+[29.8140809535980225] 2019-05-30 22:48:26,083 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*play toto africa
+[29.8150894641876221] 2019-05-30 22:48:26,084 - ERROR - musicbot.bot | In bot.py::MainThread(736), line 2809 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 2708, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 431, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+[40.1300165653228760] 2019-05-30 22:48:36,399 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*play toto africa
+[40.1310172080993652] 2019-05-30 22:48:36,400 - ERROR - musicbot.bot | In bot.py::MainThread(736), line 2809 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 2708, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 431, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+[44.9143931865692139] 2019-05-30 22:48:41,183 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*summon
+[49.4061379432678223] 2019-05-30 22:48:45,675 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*play toto africa
+[84.1209924221038818] 2019-05-30 22:49:20,390 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*help
+[97.2361137866973877] 2019-05-30 22:49:33,505 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*play https://youtu.be/xrO8-DJHOsk
+[107.5112116336822510] 2019-05-30 22:49:43,780 - INFO - musicbot.bot | In bot.py::MainThread(736), line 2680 in on_message: 225979470652112896/Klein#0001: .*queue
+[112.3731746673583984] 2019-05-30 22:49:48,642 - ERROR - musicbot.bot | In bot.py::MainThread(736), line 2832 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\client.py", line 77, in read_http_response
+    status_code, headers = yield from read_response(self.reader)
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\http.py", line 129, in read_response
+    raise ValueError("Unsupported HTTP version: %r" % version)
+ValueError: Unsupported HTTP version: b'HTTP/1.0'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 2787, in on_message
+    response = await handler(**handler_kwargs)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 1918, in cmd_summon
+    player = await self.get_player(author.voice.channel, create=True, deserialize=self.config.persistent_queue)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 419, in get_player
+    voice_client = await self.get_voice_client(channel)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 384, in get_voice_client
+    return await channel.connect(timeout=60, reconnect=True)
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\abc.py", line 984, in connect
+    await voice.connect(reconnect=reconnect)
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\voice_client.py", line 211, in connect
+    self.ws = await DiscordVoiceWebSocket.from_client(self)
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\gateway.py", line 623, in from_client
+    ws = await websockets.connect(gateway, loop=client.loop, klass=cls, compression=None)
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\py35\client.py", line 19, in __await_impl__
+    extra_headers=protocol.extra_headers,
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\client.py", line 260, in handshake
+    status_code, response_headers = yield from self.read_http_response()
+  File "C:\Users\tsubo\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\client.py", line 79, in read_http_response
+    raise InvalidMessage("Malformed HTTP message") from exc
+websockets.exceptions.InvalidMessage: Malformed HTTP message
+[112.4291908740997314] 2019-05-30 22:49:48,698 - ERROR - musicbot.bot | In bot.py::MainThread(736), line 2809 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 2708, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 431, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+[112.4321923255920410] 2019-05-30 22:49:48,701 - ERROR - musicbot.bot | In bot.py::MainThread(736), line 2809 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 2708, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 431, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+[112.4342010021209717] 2019-05-30 22:49:48,703 - ERROR - musicbot.bot | In bot.py::MainThread(736), line 2809 in on_message: Error in queue: CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 2708, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "F:\java_bot\python\MusicBot\musicbot\bot.py", line 431, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use .*summon to summon it to your voice channel.
